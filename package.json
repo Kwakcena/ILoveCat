@@ -1,0 +1,20 @@
+{
+  "name": "ILoveCat",
+  "version": "1.0.0",
+  "description": "TheCatAPI 를 이용해서 만드는 고양이 검색 사이트",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kwakcena/ILoveCat.gi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kwakcena/ILoveCat.gi/issues"
+  },
+  "homepage": "https://github.com/Kwakcena/ILoveCat.gi#readme"
+}
