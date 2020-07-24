@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import Search from './Search';
+import CatList from './CatList';
+
+import CATS from '../fixtures/cats';
 
 export default function App() {
   const [state, setState] = useState({
@@ -27,6 +30,7 @@ export default function App() {
         onChange={handleChange}
         onSubmit={handleSubmit}
       />
+      <CatList cats={CATS} />
     </div>
   );
 }
