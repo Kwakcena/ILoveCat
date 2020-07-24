@@ -2,6 +2,16 @@ module.exports = {
   env: {
     browser: true,
     es2020: true,
+    jest: true,
+  },
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+    context: 'readonly',
+    Feature: 'readonly',
+    Scenario: 'readonly',
+    actor: 'readonly',
+    given: 'readonly',
   },
   extends: [
     'plugin:react/recommended',
