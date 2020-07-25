@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const element = (
-  <div>
-    <h1>고양이 검색기</h1>
-  </div>
-);
+import App from './App';
 
 ReactDOM.render(
-  element,
+  <App />,
   document.getElementById('app'),
 );
